@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="style.css">
+<div id="form">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Project for freecode camp</p>
+  <form action="" id="survey-form">
+    <div class=" radio">
+      <label for="male">Male</label>
+      <input type="radio" name="sex" id="male" value="male">
+      <label for="female">Female</label>
+      <input type="radio" name="sex" id="female" value="female">
+    </div>
+    <div class="input">
+      <label for="name" id="name-label">Your name</label>
+      <input type="text" id="name" placeholder="John Peters" required>
+    </div>
+    <div class="input">
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="john_peters@yahoo.com" required>
+    </div>
+    <div class="input">
+      <label for="number" id="number-label">Age</label>
+      <input type="number" id="number" min="18" max="80" placeholder="43">
+    </div>
+    <div class="input level">
+      <label for="experience-level">Level</label>
+    <select name="Level" id="dropdown">
+      <option value="beginner">beginner</option>
+      <option value="intermediate">intermediate</option>
+      <option value="advanced">advanced</option>
+    </select>
+    </div>
+    <textarea name="text" id="textarea" cols="50" rows="10" placeholder="Put your message here"></textarea>
+    <input type="submit" id="submit" value="send">
+    <div class="checkbox">
+      <input type="checkbox" id="agreement" value="agreement" required>
+      <label for="agreement">I agree with policy</label><br>
+      <input type="checkbox" id="updates" value="updates" required>
+      <label for="updates">I agree to receive messages</label>
+    </div>
+  </form>
+</div>
