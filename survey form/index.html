@@ -1,8 +1,9 @@
+<meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <div id="form">
   <h1 id="title">Survey Form</h1>
   <p id="description">Project for freecode camp</p>
-  <form action="" id="survey-form">
+  <form action="insert.php" method="post" id="survey-form">
     <div class=" radio">
       <label for="male">Male</label>
       <input type="radio" name="sex" id="male" value="male">
@@ -11,24 +12,24 @@
     </div>
     <div class="input">
       <label for="name" id="name-label">Your name</label>
-      <input type="text" id="name" placeholder="John Peters" required>
+      <input type="text" id="name" placeholder="John Peters" name="name" required>
     </div>
     <div class="input">
       <label for="email" id="email-label">Email</label>
-      <input type="email" id="email" placeholder="john_peters@yahoo.com" required>
+      <input type="email" id="email" placeholder="john_peters@yahoo.com" name="email" required>
     </div>
     <div class="input">
       <label for="number" id="number-label">Age</label>
-      <input type="number" id="number" min="18" max="80" placeholder="43">
+      <input type="number" id="number" min="18" max="80" name="age" placeholder="43">
     </div>
-    <div class="input level">
-      <label for="experience-level">Level</label>
-    <select name="Level" id="dropdown">
-      <option value="beginner">beginner</option>
-      <option value="intermediate">intermediate</option>
-      <option value="advanced">advanced</option>
+    
+    <p class="select">Level</p>
+    <select name="level" id="dropdown">
+      <option value="beginner" selected>Beginner</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="advanced">Advanced</option>
     </select>
-    </div>
+    
     <textarea name="text" id="textarea" cols="50" rows="10" placeholder="Put your message here"></textarea>
     <input type="submit" id="submit" value="send">
     <div class="checkbox">
