@@ -7,7 +7,7 @@
     position:absolute;
     top:0; bottom:0; left:0; right:0;
     transition: background-color, 1s; 
-    transition: color, 1s;
+    transition: color, 1s;    
 }
 
 #quote-box{
