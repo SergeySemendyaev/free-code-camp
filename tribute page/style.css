@@ -1,0 +1,32 @@
+$blue: #a3d5d3;
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  border: 5px  solid black;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.red-text{
+  color:red;
+  font-family: cursive;
+  font-weight: normal;
+}
+
+body {
+  background-color: $blue;
+}
+
+.photo{
+  text-align: center;
+}
+
+.biography{
+  margin-top: 50px;
+}
+
+.main-information{
+  margin: 10px 50px 50px 50px;
+  text-indent: 3%;
+}
+

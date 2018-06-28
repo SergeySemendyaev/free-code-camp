@@ -1,0 +1,30 @@
+#display{
+    border: 1px solid black;
+}
+
+#formula{
+    height: 7vh;
+    text-align: right;
+    padding-right: 5%;
+    vertical-align: bottom;
+    line-height: 7vh;
+}
+#input{
+    height: 7vh;
+    text-align: right;
+    padding-right: 5%;
+    vertical-align: bottom;
+    line-height: 8vh;
+}
+#buttons{
+    padding: 1vh 1vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vh;
+}
+
+button{
+    height: 15vh;
+}

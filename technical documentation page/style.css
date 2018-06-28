@@ -1,0 +1,67 @@
+.container{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 0, 0.1);
+}
+#navbar {
+  position: fixed;
+  padding-left: 2%;
+  width: 25%;
+  height: 100%;
+  overflow: scroll;
+  background-color: white;
+}
+#navbar a{
+  text-decoration: none;
+  color: black;
+}
+#navbar header{
+  top: 0px;
+  padding-top: 11px;
+  position: fixed;
+  width: 25%;
+  background-color: white;
+}
+#navbar:first-child{
+  padding-top: 30px;
+}
+
+#main-doc{
+  width: 65%;
+  margin-left: 29vw;
+}
+#main-doc header{
+  margin-bottom: 25px;
+}
+header{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#main-doc p{
+  margin-left: 20px;
+}
+section{
+  margin-bottom: 25px;
+}
+code p{
+  background-color: rgb(30,30,130, 0.2);
+  padding: 10px 30px;
+  width: 90%;
+}
+
+@media (max-width:900px){
+  #main-doc{
+    width: 85%;
+    margin-left: 0px;
+    margin-top: 120px;
+  }
+  #navbar{
+    position: static;
+    height: 100vh;
+    width: 92vw;
+  }
+  #navbar header{
+    position: static;
+  }
+}
